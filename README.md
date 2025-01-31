@@ -18,14 +18,14 @@ pip install pymupdf
 ## Usage
 Run the script using the following command:
 ```sh
-python script.py <pdf_path> <output_folder>
+python main.py <pdf_path> <output_folder>
 ```
 - `<pdf_path>`: Path to the PDF file.
 - `<output_folder>`: Directory where PNG images will be saved.
 
 ### Example
 ```sh
-python script.py example.pdf output_images
+python main.py example.pdf output_images
 ```
 This will convert all pages of `example.pdf` and save them as PNG images in the `output_images` folder.
 
